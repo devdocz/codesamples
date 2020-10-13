@@ -1,0 +1,3 @@
+This is a test file - I
+
+Here is a sample text file, created using vi command
