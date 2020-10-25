@@ -5,7 +5,7 @@ def myCheckout(myGitUrl, myBranch, myLocalDir) {
     extensions: [[$class: 'RelativeTargetDirectory',
     relativeTargetDir: myLocalDir]], 
     submoduleCfg: [], 
-    userRemoteConfigs: [[credentialsId: 'GithubSSH',   
+    userRemoteConfigs: [[credentialsId: 'GitHubSSH-10-24',   
     url: myGitUrl]]
     ]
 }
